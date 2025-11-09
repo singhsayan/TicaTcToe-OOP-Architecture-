@@ -255,7 +255,7 @@ public:
 };
 
 int main() {
-    cout << "===== TIC TAC TOE =====" << endl;
+    cout << "TIC TAC TOE" << endl;
 
     int size;
     cout << "Enter board size: ";
@@ -266,8 +266,8 @@ int main() {
     IObserver* notifier = new ConsoleNotifier();
     game->addObserver(notifier);
 
-    Player* p1 = new Player(1, "Aditya", new Symbol('X'));
-    Player* p2 = new Player(2, "Harshita", new Symbol('O'));
+    Player* p1 = new Player(1, "Henry", new Symbol('X'));
+    Player* p2 = new Player(2, "John", new Symbol('O'));
 
     game->addPlayer(p1);
     game->addPlayer(p2);
