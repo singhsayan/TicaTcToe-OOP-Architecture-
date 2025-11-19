@@ -7,7 +7,6 @@
 4. [Design Patterns Used](#design-patterns-used)  
 5. [Component-Level Details](#component-level-details)  
 6. [Workflow](#workflow)  
-7. [Game Output](#game-output)  
 
 ---
 
@@ -169,4 +168,4 @@ Creates game objects based on type.
 
  - Turn rotates
 
-## Output
+
