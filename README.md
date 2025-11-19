@@ -47,7 +47,7 @@ Players have:
 ---
 
 ## Class Diagram
-*(Reference to the diagram provided in the prompt — not embedded here)*
+![Low Level Design](./screenshots/class_diagram.png)
 
 Key classes demonstrated:
 - **Game**, **Board**, **Player**, **Symbol**, **Rules**, **StandardRules**  
